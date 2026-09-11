@@ -6,7 +6,8 @@ header {
 }
 
 body {
-    background-image: https://thumbs.dreamstime.com/b/perspectiva-dram%C3%A1tica-do-castelo-farelo-na-transilv%C3%A2nia-127444494.jpg;
+    background-image: url(https://thumbs.dreamstime.com/b/perspectiva-dram%C3%A1tica-do-castelo-farelo-na-transilv%C3%A2nia-127444494.jpg);
+    background-repeat: repeat;
 }
 
 main {
