@@ -24,3 +24,29 @@ button{
     padding: 30px 60px; /* 15px em cima/baixo e 30px esquerda/direita */
     font-size: 50px;
 }
+
+  /* Estilo básico para o menu */
+        nav ul {
+            list-style-type: none; /* Remove as bolinhas da lista */
+            margin: 0;
+            padding: 0;
+            background-color: #333; /* Cor de fundo escura */
+            overflow: hidden;
+        }
+
+        nav li {
+            float: left; /* Coloca os itens lado a lado */
+        }
+
+        nav li a {
+            display: block;
+            color: white; /* Cor do texto */
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none; /* Remove o sublinhado do link */
+        }
+
+        /* Muda a cor de fundo ao passar o mouse */
+        nav li a:hover {
+            background-color: #111;
+        }
