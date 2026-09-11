@@ -25,7 +25,20 @@ button{
     font-size: 50px;
 }
 
-  /* Estilo básico para o menu */
+  /* Faz a página rolar suavemente ao clicar nos links do menu */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Estilo básico para o menu */
+        nav {
+            position: fixed; /* Mantém o menu fixo no topo ao rolar a página */
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
         nav ul {
             list-style-type: none; /* Remove as bolinhas da lista */
             margin: 0;
@@ -50,3 +63,15 @@ button{
         nav li a:hover {
             background-color: #111;
         }
+
+        /* Estilo apenas para visualizarmos as seções na tela */
+        section {
+            padding: 100px 20px 50px 20px; /* Espaçamento interno para o conteúdo não ficar debaixo do menu fixo */
+            min-height: 100vh; /* Garante que cada seção ocupe pelo menos a altura da tela */
+        }
+
+        #Início { background-color: #f4f4f4; }
+        #Histŕoia { background-color: #e2e2e2; }
+        #filmes { background-color: #d1d1d1; }
+        #curiosidades { background-color: #c0c0c0; }
+    
