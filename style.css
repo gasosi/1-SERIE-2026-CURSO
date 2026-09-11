@@ -1,13 +1,15 @@
 header {
-background-color: rgb(141, 141, 150);
+    background-color: rgb(141, 141, 150);
 }
-body{
+
+body {
     background-color: beige;
 }
+
 main {
-background-color: #FFFFFF;
-color: #183C63;
-text-align: center;
-max-width: 800px;
-margin: 0 auto;
+    background-color: #FFFFFF;
+    color: #183C63;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
 }
