@@ -11,7 +11,8 @@ body {
 }
 
 main {
-    background-color: #2e0101;
+    background-image: url(https://media.tacdn.com/media/attractions-splice-spp-674x446/06/f4/6a/43.jpg);
+    background-repeat: no-repeat;
     color: #F2F2F2;
     text-align: center;
     max-width: 800px;
