@@ -16,3 +16,10 @@ main {
     max-width: 800px;
     margin: 0 auto;
 }
+button{
+    size: 100px;
+}
+.botao-espacoso {
+    padding: 15px 30px; /* 15px em cima/baixo e 30px esquerda/direita */
+    font-size: 16px;
+}
