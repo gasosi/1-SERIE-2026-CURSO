@@ -11,7 +11,7 @@ body {
 
 main {
     background-color: #2e0101;
-    color: #290202;
+    color: #F2F2F2;
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
@@ -20,6 +20,6 @@ button{
     size: 100px;
 }
 .botao-espacoso {
-    padding: 15px 30px; /* 15px em cima/baixo e 30px esquerda/direita */
-    font-size: 25px;
+    padding: 30px 60px; /* 15px em cima/baixo e 30px esquerda/direita */
+    font-size: 50px;
 }
